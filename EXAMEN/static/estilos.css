@@ -1,0 +1,73 @@
+.button{
+  width: 200px; /* Ancho del botón */
+  height: 200px; /* Alto del botón */
+  padding: 10px; /* Espaciado interno para contenido */
+  text-align: center; /* Alineación del texto */
+  font-family: Times New Roman; /* Fuente del texto */
+  font-size: 20px; /* Tamaño del texto */
+  color: #fff; /* Color del texto */
+  border: none; /* Eliminar borde */
+  border-radius: 0; /* Eliminar esquinas redondeadas */
+  cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+  margin: 10px; /* Separación entre botones */
+}
+.button1 {background-color: purple;} /* Ejercicio 1 */
+.button2 {background-color: green;} /* Ejercicio 2 */
+.button3 {
+    width: 100px; /* Ancho del botón */
+    height: 40px; /* Alto del botón */
+    border-radius: 5px; /* Eliminar esquinas redondeadas */
+    background-color: blue;
+    font-family: Arial;
+    font-size: 15px;
+    text-decoration: 0; /* Calcular */
+}
+
+h1{
+font-family: Arial;
+}
+
+label{
+font-family: Arial;
+}
+
+p{
+font-family: Arial;
+text-align: left;
+}
+
+input {
+  width: 500px; /* Ancho del campo de entrada */
+  height: 25px; /* Alto del campo de entrada */
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: row;
+}
+
+.formulario{
+  margin: 0 auto;
+  margin-top: 200px;
+  height: 510px;
+  width: 510px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 4px #000000;
+  border-radius: 10px;
+  text-align: center;
+}
+.form_sesion{
+  margin: 0 auto;
+  margin-top: 200px;
+  height: 450px;
+  width: 510px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 4px #000000;
+  border-radius: 10px;
+  text-align: center;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/estilos.css">
+</head>
+<body>
+<div class="form_sesion">
+    <h1>Inicio de sesión</h1>
+    <form method="post">
+        <label for="nombre">Ingresa tu nombre</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        <label for="contraseña">Ingresa tu contraseña</label><br>
+        <input type="password" id="contraseña" name="contraseña" required><br><br>
+
+        <input type="submit" value="Verificar" class="button button3">
+
+    </form>
+    {% if show_results %}
+    <p>{{mensaje}}</p>
+    {% endif %}
+</div>
+</body>
+</html>
